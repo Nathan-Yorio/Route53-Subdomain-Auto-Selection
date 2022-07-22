@@ -41,3 +41,9 @@ Initialize Terraform, validate that the script is good to go and apply the scrip
 ### 3.5 Agree to Terraform's infrastructure generation, pretty verbose
 
 ### 4. Log into AWS Console, go to Route 53 and validate that the subdomain was generated
+
+### 4.5 Validate that Certificate validation DNS record was generated for new `something.example.com` certificate
+
+### 5. Go to ACM and validate that a new certificate `something.example.com` was generated
+
+### 6. Go to Application load balancer and validate that newly generated ACM certificate was applied as a new listener Server Name Indication
